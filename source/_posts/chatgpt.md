@@ -19,52 +19,10 @@ plugins:
 ### 简述
 
 - **中文名：夏朝**
-
-  ```{.wrap}
-  测试
-  ```
-
-  ```{.wrap}
-  Help me come up with a catchy name for my bakery business.
-  ```
 - **外文名：The Xia Dynasty**
-
-  ```{.wrap}
-  Please create an outline for a course on web development for beginners.
-  ```
-
-  ```{.wrap}
-  Can you make a training program outline for a customer service workshop?
-  ```
 - **别    名：夏、西邑夏、西邑、有夏**
-
-  ```{.wrap}
-  I'm interviewing for a software engineer position, can you give me some interview questions?
-  ```
-
-  ```{.wrap}
-  Please provide me with some common interview questions for a marketing manager role.
-  ```
 - **时间范围：公元前 2070年 至 1600年**
-
-  ```{.wrap}
-  I need gift ideas for my clients, can you help?
-  ```
-
-  ```{.wrap}
-  What are some unique gifts I can give to my business partners?
-  ```
 - **帝    王：姒启，姒太康，姒少康，姒桀等**
-
-  ```{.wrap}
-  I want to choose a winner from a list of 100 names, can you help?
-  ```
-
-  ```{.wrap}
-  Can you randomly pick 5 email addresses from a list of 1000 for a giveaway contest?
-  ```
-
-{.collapsible}
 
 [💡 I Got an IDEA](https://github.com/Fechin/reference/blob/main/source/_posts/chatgpt.md)
 

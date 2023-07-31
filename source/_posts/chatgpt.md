@@ -29,6 +29,20 @@ plugins:
 - **货    币：贝币、贝蚌、铜贝**
 - **建立者：夏禹**
 
+快捷键 | 说明
+:- | -
+`Ctrl` `Z`  | 撤消
+`Ctrl` `Shift` `Z`  | 重做
+`Ctrl` `X`  | 剪切
+`Ctrl` `C`  | 复制
+`Ctrl` `V`  | 粘贴
+`Ctrl` `Alt` `V`  | 粘贴外观（设计模式）或粘贴交互（原型模式）
+`Ctrl` `D`  | 复制
+`Del`  | 删除
+`Ctrl` `A`  | 全选
+`Ctrl` `Shift` `A`  | 取消全选
+<!--rehype:className=shortcuts-->
+
 [💡 I Got an IDEA](https://github.com/Fechin/reference/blob/main/source/_posts/chatgpt.md)
 
 ### Coding

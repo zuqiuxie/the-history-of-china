@@ -1,26 +1,12 @@
-.github
-.husky
-scripts
-node_modules
-package-lock.json
-pnpm-lock.yaml
-yarn.lock
+node_modules/
+test
+*.log
+Dockerfile*
+README.md
+LICENSE
+style.tailwindcss
 
-.DS_Store
-.cache
-.vscode
-.idea
-.snap
-.env
-
-*.bak
-*.tem
-*.temp
-#.swp
-*.*~
-~*.*
-
-# IDEA
-*.iml
-*.ipr
-*.iws
+.idea/
+.github/
+.travis.yml
+.eslintignore

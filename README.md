@@ -1,607 +1,288 @@
-Quick Reference
-===
+# 📖 Reference - Cheat Sheets for Developers
 
-<!--rehype:ignore:start-->
-[![CI](https://github.com/jaywcjlove/reference/actions/workflows/ci.yml/badge.svg)](https://github.com/jaywcjlove/reference/actions/workflows/ci.yml)
-[![Docker Image Version (latest by date)](https://img.shields.io/docker/v/wcjiang/reference)](https://hub.docker.com/r/wcjiang/reference)
-[![Docker Image Size (latest by date)](https://img.shields.io/docker/image-size/wcjiang/reference)](https://hub.docker.com/r/wcjiang/reference)
-[![Docker Pulls](https://img.shields.io/docker/pulls/wcjiang/reference)](https://hub.docker.com/r/wcjiang/reference)
-<!--rehype:ignore:end-->
+[![love](https://badgen.net/badge/make%20with/love/pink)](#)
+[![License](https://badgen.net/badge/license/MIT/blue)](https://github.com/Fechin/reference/blob/main/LICENSE)
+[![Follow us on Twitter](https://img.shields.io/twitter/follow/FechinLi?style=social)](https://twitter.com/FechinLi)
 
-<!--rehype:ignore:start-->
-[![Quick Reference](https://user-images.githubusercontent.com/1680273/201931931-d8559417-0a15-46af-a009-ec1e56e5b778.png)](https://jaywcjlove.github.io/reference)
-<!--rehype:ignore:end-->
 
-为开发人员分享快速参考备忘清单【速查表】。这是英文版 [Reference](https://github.com/Randy8080/reference) 的中文版本，目的是为了方便自己的技术栈查阅，如果您提供一个清单，我将抽空搬运，立即撸起来 :)。如果您发现此处的备忘单不合适，您可以通过提交 [PR](https://github.com/jaywcjlove/reference/blob/main/CONTRIBUTING.md) 来修复它或提供更好的备忘清单，只针对【中文】用户。以下是开源天使提供的一些备忘清单和快速参考 :)。
+Reference is a collection of cheat sheets contributed by open source angels. It shares a quick reference cheat sheet for developers in a nice layout. \[ [中文版](https://github.com/jaywcjlove/reference) | ... \]
 
-## 正在建设中...
+We encourage you to share your own cheat sheets with the community and make Reference even better. If you notice a cheat sheet that could be improved, feel free to submit a [pull request](#-contributing).
 
-坑已挖，需要您的参与完善和[贡献](./docs/quickreference.md)！🙏
-<!--rehype:style=padding-bottom: 23px;-->
 
-[Ansible](./docs/ansible.md)<!--rehype:style=background: rgb(238 0 0);&class=contributing tag&data-lang=RedHat&data-info=👆看看还缺点儿什么？-->  
-[CMake](./docs/cmake.md)<!--rehype:style=background: rgb(92 107 192);&class=contributing-->  
-[C#](./docs/cs.md)<!--rehype:style=background: rgb(6 147 13);&class=contributing-->  
-[Django](./docs/django.md)<!--rehype:style=background: rgb(12 75 51);&class=contributing tag&data-lang=Python-->  
-[FFmpeg](./docs/ffmpeg.md)<!--rehype:style=background: rgb(0 193 9);&class=contributing-->  
-[Flask](./docs/flask.md)<!--rehype:style=background: rgb(210 168 255);&class=contributing tag&data-lang=Python-->
-[Flutter](./docs/flutter.md)<!--rehype:style=background: rgb(150 220 254);&class=contributing tag&data-lang=Dart-->  
-[Gitlab CI/CD](./docs/gitlab-ci.md)<!--rehype:style=background: rgb(226 67 41);&class=contributing-->  
-[LaTeX](./docs/latex.md)<!--rehype:style=background: rgb(0 128 128);&class=contributing-->  
-[Lua](./docs/lua.md)<!--rehype:style=background: rgb(3 3 128);&class=contributing-->  
-[NestJS](./docs/nestjs.md)<!--rehype:style=background: rgb(237 21 67);&class=contributing-->  
-[MATLAB](./docs/matlab.md)<!--rehype:style=background: rgb(0 118 168);&class=contributing-->  
-[Oracle](./docs/oracle.md)<!--rehype:style=background: rgb(255 0 0);&class=contributing tag&data-lang=SQL-->  
-[Pytorch](./docs/pytorch.md)<!--rehype:style=background: rgb(238 76 44);&class=contributing tag&data-lang=Python&data-info=👆看看还缺点儿什么？-->  
-[Vue 3](./docs/vue.md)<!--rehype:style=background: rgb(64 184 131);&class=contributing-->  
-<!--rehype:class=home-card-->
 
-## 编程
 
-[Bash](./docs/bash.md)<!--rehype:style=background: rgb(72 143 223);-->  
-[C](./docs/c.md)<!--rehype:style=background: rgb(92 107 192);-->  
-[C#](./docs/cs.md)<!--rehype:style=background: rgb(6 147 13);&class=contributing-->  
-[C++](./docs/cpp.md)<!--rehype:style=background: rgb(6 147 13);&class=contributing-->  
-[Dart](./docs/dart.md)<!--rehype:style=background: rgb(64 196 255);-->  
-[Docker](./docs/docker.md)<!--rehype:style=background: rgb(72 143 223);-->  
-[Dockerfile](./docs/dockerfile.md)<!--rehype:style=background: rgb(0 72 153);&class=tag&data-lang=Docker-->  
-[Django](./docs/django.md)<!--rehype:style=background: rgb(12 75 51);&class=contributing tag&data-lang=Python--> 
-[Flask](./docs/flask.md)<!--rehype:style=background: rgb(210 168 255);&class=contributing tag&data-lang=Python--> 
-[Flutter](./docs/flutter.md)<!--rehype:style=background: rgb(150 220 254);&class=contributing tag&data-lang=Dart-->  
-[Golang](./docs/golang.md)<!--rehype:style=background: rgb(39 160 193);-->  
-[GraphQL](./docs/graphql.md)<!--rehype:style=background: rgb(214 66 146);-->  
-[INI](./docs/ini.md)<!--rehype:style=background: rgb(57 59 60);-->  
-[JSON](./docs/json.md)<!--rehype:style=background: rgb(57 59 60);-->  
-[Java](./docs/java.md)<!--rehype:style=background: rgb(211 55 49);&class=contributing&data-info=👆看看还缺点儿什么？-->  
-[Julia](./docs/julia.md)<!--rehype:style=background: rgb(26 188 156);&class=contributing&data-info=👆看看还缺点儿什么？-->  
-[Kotlin](./docs/kotlin.md)<!--rehype:style=background: rgb(211 55 49);&class=contributing&data-info=👆看看还缺点儿什么？-->  
-[Kubernetes](./docs/kubernetes.md)<!--rehype:style=background: rgb(51 113 227);&class=contributing&data-info=👆看看还缺点儿什么？-->  
-[LaTeX](./docs/latex.md)<!--rehype:style=background: rgb(0 128 128);&class=contributing-->  
-[Laravel 8](./docs/laravel.md)<!--rehype:style=background: rgb(249 50 44);&class=contributing tag&data-lang=PHP-->  
-[Markdown](./docs/markdown.md)<!--rehype:style=background: rgb(103 61 156);-->  
-[MATLAB](./docs/matlab.md)<!--rehype:style=background: rgb(0 118 168);&class=contributing-->  
-[PHP](./docs/php.md)<!--rehype:style=background: rgb(79 91 147);-->  
-[Python](./docs/python.md)<!--rehype:style=background: rgb(43 91 132);-->  
-[Ruby](./docs/ruby.md)<!--rehype:style=background: rgb(204 52 45);-->  
-[Rust](./docs/rust.md)<!--rehype:style=background: rgb(71 71 71);-->  
-[Scala](./docs/scala.md)<!--rehype:style=background: rgb(34 82 94);-->  
-[Swift](./docs/swift.md)<!--rehype:style=background: rgb(240 81 57);-->  
-[SwiftUI](./docs/swiftui.md)<!--rehype:style=background: rgb(10 127 247);&class=tag&data-lang=swift-->  
-[TOML](./docs/toml.md)<!--rehype:style=background: rgb(132 132 132);-->  
-[YAML](./docs/yaml.md)<!--rehype:style=background: rgb(91 163 230);-->  
-[Lua](./docs/lua.md)<!--rehype:style=background: rgb(3 3 128);-->  
-[Pytorch](./docs/pytorch.md)<!--rehype:style=background: rgb(238 76 44);&class=contributing tag&data-lang=Python&data-info=👆看看还缺点儿什么？-->  
-<!--rehype:class=home-card-->
+## 👀 Live Demonstration
 
-## 前端
+You can view the cheat sheets live at [https://cheatsheets.zip](https://cheatsheets.zip/)
 
-[前端导航](./docs/feds.md)<!--rehype:style=background: rgb(35 115 205);&class=tag&data-lang=导航-->  
-[CSS 3](./docs/css.md)<!--rehype:style=background: rgb(35 115 205);&class=tag&data-lang=CSS-->  
-[Electron](./docs/electron.md)<!--rehype:style=background: rgb(0 72 153);-->  
-[Emmet](./docs/emmet.md)<!--rehype:style=background: rgb(122 203 23);-->  
-[ES 6](./docs/es6.md)<!--rehype:style=background: rgb(122 203 23);&class=tag&data-lang=JS-->  
-[Styled Components](./docs/styled-components.md)<!--rehype:style=background: rgb(221 60 184);&class=tag&data-lang=CSS-->  
-[Stylus](./docs/stylus.md)<!--rehype:style=background: rgb(109 161 63);&class=tag&data-lang=CSS-->  
-[Sass](./docs/sass.md)<!--rehype:style=background: rgb(207 100 154);&class=tag&data-lang=CSS-->  
-[HTML](./docs/html.md)<!--rehype:style=background: rgb(228 77 39);-->  
-[JavaScript](./docs/javascript.md)<!--rehype:style=background: rgb(203 183 31);-->  
-[jQuery](./docs/jquery.md)<!--rehype:style=background: rgb(203 183 31);-->  
-[Less.js](./docs/lessjs.md)<!--rehype:style=background: rgb(29 54 93);&class=tag&data-lang=CSS-->  
-[Next.js](./docs/nextjs.md)<!--rehype:style=background: rgb(0 0 0);&class=tag&data-lang=React-->  
-[React](./docs/react.md)<!--rehype:style=background: rgb(34 143 173);-->  
-[React Router](./docs/reactrouter.md)<!--rehype:style=background: rgb(244 66 79);&class=tag&data-lang=React-->  
-[React Native](./docs/react-native.md)<!--rehype:style=background: rgb(34 143 173);&class=tag&data-lang=React-->  
-[RegEx 正则表达式](./docs/regex.md)<!--rehype:style=background: rgb(149 36 155);-->  
-[TypeScript](./docs/typescript.md)<!--rehype:style=background: rgb(49 120 198);-->  
-[Tailwind CSS](./docs/tailwindcss.md)<!--rehype:style=background: rgb(49 120 198);-->  
-[Vue 2](./docs/vue2.md)<!--rehype:style=background: rgb(64 184 131);-->  
-[Vue 3](./docs/vue.md)<!--rehype:style=background: rgb(64 184 131);&class=contributing-->  
-[</> htmx](./docs/htmx.md)<!--rehype:style=background: rgb(52 101 164);&class=contributing-->  
-<!--rehype:class=home-card-->
+[![Quick reference](https://cheatsheets.zip/assets/image/preview.png)](https://cheatsheets.zip)
 
-## Nodejs
 
-[Express.js](./docs/expressjs.md)<!--rehype:style=background: rgb(95 151 206);-->  
-[Jest](./docs/jest.md)<!--rehype:style=background: rgb(153 66 91);-->  
-[Koa.js](./docs/koajs.md)<!--rehype:style=background: rgb(95 151 206);-->  
-[Lerna](./docs/lerna.md)<!--rehype:style=background: rgb(192 132 252);-->  
-[npm](./docs/npm.md)<!--rehype:style=background: rgb(203 2 0);-->  
-[NestJS](./docs/nestjs.md)<!--rehype:style=background: rgb(237 21 67);&class=contributing-->  
-[PM2](./docs/pm2.md)<!--rehype:style=background: rgb(73 117 241);&class=contributing-->  
-[package.json](./docs/package.json.md)<!--rehype:style=background: rgb(132 132 132);-->  
-[Yarn](./docs/yarn.md)<!--rehype:style=background: rgb(33 136 182);-->  
-<!--rehype:class=home-card-->
+## 📚 Cheat Sheets List
 
-## 工具
+Reference provides cheat sheets for the following:
 
-[Emacs](./docs/emacs.md)<!--rehype:style=background: rgb(98 36 134);-->  
-[Github](./docs/github.md)<!--rehype:style=background: rgb(36 41 47);-->  
-[nginx](./docs/nginx.md)<!--rehype:style=background: rgb(0 153 0);-->  
-[Semver](./docs/semver.md)<!--rehype:style=background: rgb(106 111 141);-->  
-[Vim](./docs/vim.md)<!--rehype:style=background: rgb(9 150 8);-->  
-[XPath](./docs/xpath.md)<!--rehype:style=background: rgb(91 163 230);-->  
-<!--rehype:class=home-card-->
 
-## 命令
+<details>
+<summary>Programming</summary>
 
-[ADB, Android Debug Bridge](./docs/adb.md)<!--rehype:style=background: rgb(238 0 0);&class=contributing tag&data-lang=Android&data-info=👆看看还缺点儿什么？-->  
-[Ansible](./docs/ansible.md)<!--rehype:style=background: rgb(238 0 0);&class=contributing tag&data-lang=RedHat&data-info=👆看看还缺点儿什么？-->  
-[Awk](./docs/awk.md)<!--rehype:style=background: rgb(16 185 129);-->  
-[Conan](./docs/conan.md)<!--rehype:style=background: rgb(0 193 9);&class=tag&data-lang=C/C++-->  
-[Conda](./docs/conda.md)<!--rehype:style=background: rgb(68 168 51);&class=tag&data-lang=Python-->  
-[CocoaPods](./docs/cocoapods.md)<!--rehype:style=background: rgb(251 0 6);&class=tag&data-lang=C/C++-->  
-[Cargo](./docs/cargo.md)<!--rehype:style=background: rgb(71 71 71);&class=tag&data-lang=Rust-->  
-[Curl](./docs/curl.md)<!--rehype:style=background: rgb(16 185 129);-->  
-[Chmod](./docs/chmod.md)<!--rehype:style=background: rgb(16 185 129);-->  
-[Cron](./docs/cron.md)<!--rehype:style=background: rgb(239 68 68);-->  
-[CMake](./docs/cmake.md)<!--rehype:style=background: rgb(92 107 192);&class=contributing-->  
-[Make](./docs/make.md)<!--rehype:style=background: rgb(99 99 99);&class=contributing-->  
-[Gdb](./docs/gdb.md)<!--rehype:style=background: rgb(215 89 62);-->  
-[Git](./docs/git.md)<!--rehype:style=background: rgb(215 89 62);-->  
-[Grep](./docs/grep.md)<!--rehype:style=background: rgb(16 185 129);-->  
-[Find](./docs/find.md)<!--rehype:style=background: rgb(16 185 129);-->  
-[FFmpeg](./docs/ffmpeg.md)<!--rehype:style=background: rgb(0 193 9);&class=contributing-->  
-[Htop](./docs/htop.md)<!--rehype:style=background: rgb(16 185 129);-->  
-[Homebrew](./docs/homebrew.md)<!--rehype:style=background: rgb(252 185 87);&class=tag&data-lang=macOS-->  
-[Netstat](./docs/netstat.md)<!--rehype:style=background: rgb(16 185 129);-->  
-[iptables](./docs/iptables.md)<!--rehype:style=background: rgb(32 74 135);-->  
-[jq](./docs/jq.md)<!--rehype:style=background: rgb(16 185 129);&class=tag&data-lang=JSON-->  
-[Justfile](./docs/justfile.md)<!--rehype:style=background: rgb(16 185 129);-->  
-[Lsof](./docs/lsof.md)<!--rehype:style=background: rgb(16 185 129);-->  
-[Mitmproxy](./docs/mitmproxy.md)<!--rehype:style=background: rgb(4 92 135);-->  
-[Netcat](./docs/netcat.md)<!--rehype:style=background: rgb(4 92 135);-->  
-[Sed](./docs/sed.md)<!--rehype:style=background: rgb(16 185 129);-->  
-[OpenSSL](./docs/openssl.md)<!--rehype:style=background: rgb(114 20 18);-->  
-[ps](./docs/ps.md)<!--rehype:style=background: rgb(99 99 99);-->  
-[Systemd](./docs/systemd.md)<!--rehype:style=background: rgb(16 185 129);-->  
-[SSH](./docs/ssh.md)<!--rehype:style=background: rgb(99 99 99);-->  
-[Screen](./docs/screen.md)<!--rehype:style=background: rgb(99 99 99);-->  
-[Sysdig](./docs/sysdig.md)<!--rehype:style=background: rgb(1 171 199);-->  
-[Tmux](./docs/tmux.md)<!--rehype:style=background: rgb(99 99 99);-->  
-[YUM](./docs/yum.md)<!--rehype:style=background: rgb(86 86 123);-->  
-[CMD](./docs/cmd.md)<!--rehype:style=background: rgb(99 99 99);-->  
-[Zip](./docs/zip.md)<!--rehype:style=background: rgb(99 99 99);-->  
-[APT](./docs/apt.md)<!--rehype:style=background: rgb(30 144 255);-->  
-[tar](./docs/tar.md)<!--rehype:style=background: rgb(215 89 62);-->  
-[pacman](./docs/pacman.md)<!--rehype:style=background: rgb(24 147 209);&class=tag&data-lang=archlinux&class=contributing-->  
-[Linux Command](./docs/linux-command.md)<!--rehype:style=background: rgb(215 89 62);&class=tag&data-lang=命令速查-->  
-<!--rehype:class=home-card-->
+- [Kubernetes](https://cheatsheets.zip/kubernetes.html): This page contains a list of commonly used kubectl commands and flags.
+- [ES6](https://cheatsheets.zip/es6.html): A quick reference cheat sheet of what's new in JavaScript for ES2015, ES2016, ES2017, ES2018 and beyond
+- [MATLAB](https://cheatsheets.zip/matlab.html): This quick reference cheat sheet provides an example introduction to using the [MATLAB](https://mathworks.cn/) scientific computing language to get started quickly
+- [C](https://cheatsheets.zip/c.html): C quick reference cheat sheet that provides basic syntax and methods.
+- [INI](https://cheatsheets.zip/ini.html): This is a quick reference cheat sheet for understanding and writing INI-format configuration files.
+- [LaTeX](https://cheatsheets.zip/latex.html): This cheat sheet summarizes a reference list of [LaTeX](https://www.latex-project.org/) commonly used display math notation and some application examples of [KaTeX](https://katex.org/).
+- [Rust](https://cheatsheets.zip/rust.html): The Rust quick reference cheat sheet that aims at providing help on writing basic syntax and methods.
+- [C#](https://cheatsheets.zip/cs.html): C# quick reference cheat sheet that provides basic syntax and methods.
+- [Laravel](https://cheatsheets.zip/laravel.html): [Laravel](https://laravel.com/docs/8.x/) is an expressive and progressive web application framework for PHP. 
+This cheat sheet provides a reference for common commands and features for Laravel 8.
+- [Dart](https://cheatsheets.zip/dart.html): A Dart cheat sheet with the most important concepts, functions, methods, and more. A complete quick reference for beginners.
+- [JSON](https://cheatsheets.zip/json.html): This is a quick reference cheat sheet for understanding and writing JSON format configuration files.
+- [HTML](https://cheatsheets.zip/html.html): This HTML quick reference cheat sheet lists the common HTML and HTML5 tags in readable layout.
+- [GraphQL](https://cheatsheets.zip/graphql.html): This quick reference cheat sheet provides a brief overview of GraphQL.
+- [C++](https://cheatsheets.zip/cpp.html): C++ quick reference cheat sheet that provides basic syntax and methods.
+- [Java](https://cheatsheets.zip/java.html): This cheat sheet is a crash course for Java beginners and help review the basic syntax of the Java language.
+- [PHP](https://cheatsheets.zip/php.html): This [PHP](https://www.php.net/manual/en/) cheat sheet provides a reference for quickly looking up the correct syntax for the code you use most frequently.
+- [Docker](https://cheatsheets.zip/docker.html): This is a quick reference cheat sheet for [Docker](https://docs.docker.com/get-started/). And you can find the most common Docker commands here.
+- [TOML](https://cheatsheets.zip/toml.html): This is a quick reference cheat sheet to the TOML format configuration file syntax.
+- [YAML](https://cheatsheets.zip/yaml.html): This is a quick reference cheat sheet for understanding and writing YAML format configuration files.
+- [CSS 3](https://cheatsheets.zip/css.html): This is a quick reference cheat sheet for CSS goodness, listing selector syntax, properties, units and other useful bits of information.
+- [jQuery](https://cheatsheets.zip/jquery.html): This [jQuery](https://jquery.com/) cheat sheet is a great reference for both beginners and experienced developers.
+- [JavaScript](https://cheatsheets.zip/javascript.html): A JavaScript cheat sheet with the most important concepts, functions, methods, and more. A complete quick reference for beginners.
+- [Python](https://cheatsheets.zip/python.html): The [Python](https://www.python.org/) cheat sheet is a one-page reference sheet for the Python 3 programming language.
+- [Sass](https://cheatsheets.zip/sass.html): This is a quick reference cheat sheet that lists the most useful features of [SASS](https://sass-lang.com).
+- [Go](https://cheatsheets.zip/go.html): This cheat sheet provided basic syntax and methods to help you using [Go](https://go.dev/).
+- [Markdown](https://cheatsheets.zip/markdown.html): This is a quick reference cheat sheet to the Markdown syntax.
+- [Bash](https://cheatsheets.zip/bash.html): This is a quick reference cheat sheet to getting started with linux bash shell scripting.
 
-## 数据库
+</details>
 
-[MySQL](./docs/mysql.md)<!--rehype:style=background: rgb(1 117 143);&class=tag&data-lang=SQL-->  
-[MongoDB](./docs/mongodb.md)<!--rehype:style=background: rgb(0 237 100);-->  
-[Oracle](./docs/oracle.md)<!--rehype:style=background: rgb(255 0 0);&class=tag&data-lang=SQL-->  
-[PostgreSQL](./docs/postgres.md)<!--rehype:style=background: rgb(43 109 163);&class=tag&data-lang=SQL-->  
-[Redis](./docs/redis.md)<!--rehype:style=background: rgb(198 47 44);-->  
-<!--rehype:class=home-card-->
+<details>
+<summary>Toolkit</summary>
 
-## 快捷键
+- [ChatGPT](https://cheatsheets.zip/chatgpt.html): This cheat sheet lists out prompts and tips from all over the world on how to use ChatGPT effectively
+- [VSCode](https://cheatsheets.zip/vscode.html): This VSCode (Visual Studio Code) quick reference cheat sheet shows its keyboard shortcuts and commands.
+- [Mitmproxy](https://cheatsheets.zip/mitmproxy.html): [mitmproxy](https://mitmproxy.org/) is a free and open source interactive HTTPS proxy. This is a quick reference cheat sheet to the mitmproxy.
+- [XPath](https://cheatsheets.zip/xpath.html): This is an [XPath](https://en.wikipedia.org/wiki/XPath) selectors cheat sheet, which lists commonly used XPath positioning methods and CSS selectors
+- [Emacs](https://cheatsheets.zip/emacs.html): [Emacs](https://www.gnu.org/software/emacs) is the extensible, customizable, self-documenting real time display text editor.
+This reference was made for Emacs 27.
+- [Emmet](https://cheatsheets.zip/emmet.html): [Emmet](https://emmet.io/) is a web-developer’s toolkit for boosting HTML & CSS code writing, which allows you to write large HTML code blocks at speed of light using well-known CSS selectors.
+- [RegEX](https://cheatsheets.zip/regex.html): A quick reference for regular expressions (regex), including symbols, ranges, grouping, assertions and some sample patterns to get you started.
+- [Vim](https://cheatsheets.zip/vim.html): A useful collection of [Vim](http://www.vim.org/) 8.2 quick reference cheat sheets to help you learn vim editor faster.
 
-[Adobe Lightroom](./docs/adobe-lightroom.md)<!--rehype:style=background: rgb(49 168 255);-->  
-[Adobe Photoshop](./docs/adobe-photoshop.md)<!--rehype:style=background: rgb(49 168 255);-->  
-[Adobe XD](./docs/adobe-xd.md)<!--rehype:style=background: rgb(255 97 246);-->  
-[Android Studio](./docs/android-studio.md)<!--rehype:style=background: rgb(16 185 129);-->  
-[Firefox](./docs/firefox.md)<!--rehype:style=background: rgb(253 53 76);-->  
-[Gmail](./docs/gmail.md)<!--rehype:style=background: rgb(234 67 54);-->  
-[Gitlab](./docs/gitlab.md)<!--rehype:style=background: rgb(226 67 41);-->  
-[Google Chrome](./docs/google-chrome.md)<!--rehype:style=background: rgb(29 116 232);-->  
-[IntelliJ IDEA](./docs/intelli-j-idea.md)<!--rehype:style=background: rgb(223 148 0);&class=tag&data-lang=Java-->  
-[PyCharm](./docs/pycharm.md)<!--rehype:style=background: rgb(36 215 137);&class=tag&data-lang=Python-->  
-[Sketch](./docs/sketch.md)<!--rehype:style=background: rgb(223 148 0);&class=tag&data-lang=macOS-->  
-[Sublime Text](./docs/sublime-text.md)<!--rehype:style=background: rgb(223 148 0);-->  
-[VSCode](./docs/vscode.md)<!--rehype:style=background: rgb(91 163 230);-->  
-[WebStorm](./docs/webstorm.md)<!--rehype:style=background: rgb(32 148 220);-->  
-[Xcode](./docs/xcode.md)<!--rehype:style=background: rgb(24 151 233);&class=tag&data-lang=macOS-->  
-<!--rehype:class=home-card-->
+</details>
 
-## 其它
+<details>
+<summary>Linux Command</summary>
 
-[Quick Reference](./docs/quickreference.md)<!--rehype:style=background: rgb(0 182 122);&class=tag&data-lang=排版说明-->  
-[Aspect Ratio](./docs/aspect-ratio.md)<!--rehype:style=background: rgb(16 185 129);-->  
-[Github Actions](./docs/github-actions.md)<!--rehype:style=background: rgb(121 184 255);-->  
-[Gitlab CI/CD](./docs/gitlab-ci.md)<!--rehype:style=background: rgb(226 67 41);&class=contributing-->  
-[Colors Named](./docs/colors-named.md)<!--rehype:style=background: rgb(16 185 129);&class=tag&data-lang=CSS-->  
-[HTTP 状态码](./docs/http-status-code.md)<!--rehype:style=background: rgb(16 185 129);-->  
-[HTML 字符实体](./docs/html-char.md)<!--rehype:style=background: rgb(16 185 129);&class=tag&data-lang=HTML-->  
-[ISO 639-1 Language Code](./docs/iso-639-1.md)<!--rehype:style=background: rgb(16 185 129);-->  
-[Emoji](./docs/emoji.md)<!--rehype:style=\-\-bg\-opacity: 0.75;background-image: linear-gradient(to left, rgba(74 222 128 / var(\-\-bg\-opacity)), rgba(59 130 246 / var(\-\-bg\-opacity)));-->  
-[MIME types](./docs/mime.md)<!--rehype:style=background: rgb(16 185 129);-->  
-[Resolutions](./docs/resolutions.md)<!--rehype:style=background: rgb(16 185 129);-->  
-<!--rehype:class=home-card-->
+- [Curl](https://cheatsheets.zip/curl.html): This [Curl](https://github.com/curl/curl) cheat sheet contains commands and examples of some common Curl tricks.
+- [PM2](https://cheatsheets.zip/pm2.html): [PM2] is a daemon process manager that will help you manage and keep your application online. Getting started with PM2 is straightforward, it is offered as a simple and intuitive CLI.
+- [Chmod](https://cheatsheets.zip/chmod.html): This quick reference cheat sheet provides a brief overview of file permissions, and the operation of the chmod command
+- [Tmux](https://cheatsheets.zip/tmux.html): The tmux cheat sheet quick reference of most commonly used shortcuts and commands
+- [Lsof](https://cheatsheets.zip/lsof.html): This quick reference cheat sheet provides various for using lsof command.
+- [SSH](https://cheatsheets.zip/ssh.html): This quick reference cheat sheet provides various for using SSH.
+- [Netstat](https://cheatsheets.zip/netstat.html): This quick reference cheat sheet provides various for using netstat command.
+- [Screen](https://cheatsheets.zip/screen.html): This is a quick reference guide cheat sheet for the screen command.
+- [Awk](https://cheatsheets.zip/awk.html): This is a one page quick reference cheat sheet to the [GNU awk](https://www.gnu.org/software/gawk/manual/gawk.html), which covers commonly used awk expressions and commands.
+- [Find](https://cheatsheets.zip/find.html): This is a quick reference list of cheat sheet for linux find command, contains common options and examples.
+- [Sed](https://cheatsheets.zip/sed.html): [Sed](https://www.gnu.org/software/sed/manual/sed.html) is a stream editor, this sed cheat sheet contains sed commands and some common sed tricks.
+- [Cron](https://cheatsheets.zip/cron.html): [Cron](https://en.wikipedia.org/wiki/Cron) is most suitable for scheduling repetitive tasks. Scheduling one-time tasks can be accomplished using the associated at utility.
+- [Git](https://cheatsheets.zip/git.html): This cheat sheet summarizes commonly used Git command line instructions for quick reference.
+- [Grep](https://cheatsheets.zip/grep.html): This cheat sheet is intended to be a quick reminder for the main concepts involved in using the command line program grep and assumes you already understand its usage.
+- [Netcat](https://cheatsheets.zip/nc.html): This cheat sheet provides various for using Netcat on both Linux and Unix.
 
-## 看到缺少什么了吗？
-<!--rehype:wrap-style=text-align: center;max-width: 650px;margin: 0 auto;padding-top:4rem;&class=home-title-reset-->
+</details>
 
-上面的列表没有看到你想要的？ 您是否正在寻找一些备忘清单或参考资料，或者您有一些片段备忘清单要分享，这是一个最好的机会！
+<details>
+<summary>Python</summary>
 
-[`请求添加备忘单(速查表)`](https://github.com/jaywcjlove/reference/issues/new?title=【备忘清单】+请求%3A+&labels=request&template=cheatsheet-request.md&assignee=)<!--rehype:class=home-button&style=margin-top:2rem&target=__blank-->
-[`我有一张备忘单(速查表)`](https://github.com/jaywcjlove/reference/blob/main/CONTRIBUTING.md)<!--rehype:class=home-button text-grey&target=__blank-->
-<!--rehype:style=margin-top:3rem-->
+- [Numpy](https://cheatsheets.zip/numpy.html): [NumPy](https://numpy.org/) is the fundamental package for scientific computing with Python. This cheat sheet is a quick reference for NumPy beginners.
 
-## 感谢所有贡献者
-<!--rehype:wrap-style=text-align: center;max-width: 650px;margin: 0 auto;&class=home-title-reset-->
+</details>
 
-请参阅 [Quick Reference](./docs/quickreference.md) 了解如何开始。一如既往，感谢我们出色的[贡献者](https://github.com/jaywcjlove/reference/graphs/contributors)！
-<!--rehype:style=padding-bottom:1rem;-->
+<details>
+<summary>Database</summary>
 
-<!--GAMFC--><a href="https://github.com/jaywcjlove" title="小弟调调">
-  <img src="https://avatars.githubusercontent.com/u/1680273?v=4" width="42;" alt="小弟调调"/>
-</a>
-<a href="https://github.com/fwqaaq" title="fwqaaq">
-  <img src="https://avatars.githubusercontent.com/u/82551626?v=4" width="42;" alt="fwqaaq"/>
-</a>
-<a href="https://github.com/mofelee" title="mofelee">
-  <img src="https://avatars.githubusercontent.com/u/5069410?v=4" width="42;" alt="mofelee"/>
-</a>
-<a href="https://github.com/JeffersonHuang" title="Jefferson Huang">
-  <img src="https://avatars.githubusercontent.com/u/47512530?v=4" width="42;" alt="Jefferson Huang"/>
-</a>
-<a href="https://github.com/Alex-Programer" title="Alex">
-  <img src="https://avatars.githubusercontent.com/u/115539090?v=4" width="42;" alt="Alex"/>
-</a>
-<a href="https://github.com/LufsX" title="LufsX">
-  <img src="https://avatars.githubusercontent.com/u/33221883?v=4" width="42;" alt="LufsX"/>
-</a>
-<a href="https://github.com/expoli" title="expoli">
-  <img src="https://avatars.githubusercontent.com/u/31023767?v=4" width="42;" alt="expoli"/>
-</a>
-<a href="https://github.com/eryajf" title="二丫讲梵">
-  <img src="https://avatars.githubusercontent.com/u/33259379?v=4" width="42;" alt="二丫讲梵"/>
-</a>
-<a href="https://github.com/heStudio-Network" title="醉、倾城">
-  <img src="https://avatars.githubusercontent.com/u/119711513?v=4" width="42;" alt="醉、倾城"/>
-</a>
-<a href="https://github.com/LiuYuan-SHU" title="Yuan Liu">
-  <img src="https://avatars.githubusercontent.com/u/96400967?v=4" width="42;" alt="Yuan Liu"/>
-</a>
-<a href="https://github.com/chaos-cn" title="chaos">
-  <img src="https://avatars.githubusercontent.com/u/71205599?v=4" width="42;" alt="chaos"/>
-</a>
-<a href="https://github.com/aixcyi" title="砹小翼">
-  <img src="https://avatars.githubusercontent.com/u/75880483?v=4" width="42;" alt="砹小翼"/>
-</a>
-<a href="https://github.com/MarioMang" title="MarioMang">
-  <img src="https://avatars.githubusercontent.com/u/3959555?v=4" width="42;" alt="MarioMang"/>
-</a>
-<a href="https://github.com/qyl27" title="秋 雨落">
-  <img src="https://avatars.githubusercontent.com/u/53731501?v=4" width="42;" alt="秋 雨落"/>
-</a>
-<a href="https://github.com/dadatom" title="Da Da">
-  <img src="https://avatars.githubusercontent.com/u/33886943?v=4" width="42;" alt="Da Da"/>
-</a>
-<a href="https://github.com/XYZscratcher" title="XYZ">
-  <img src="https://avatars.githubusercontent.com/u/108533817?v=4" width="42;" alt="XYZ"/>
-</a>
-<a href="https://github.com/1834423612" title="kjch">
-  <img src="https://avatars.githubusercontent.com/u/49981661?v=4" width="42;" alt="kjch"/>
-</a>
-<a href="https://github.com/mancuoj" title="mancuoj">
-  <img src="https://avatars.githubusercontent.com/u/45707684?v=4" width="42;" alt="mancuoj"/>
-</a>
-<a href="https://github.com/pangxiaoli" title="pangxiaoli">
-  <img src="https://avatars.githubusercontent.com/u/54620953?v=4" width="42;" alt="pangxiaoli"/>
-</a>
-<a href="https://github.com/partoneplay" title="partoneplay">
-  <img src="https://avatars.githubusercontent.com/u/5189132?v=4" width="42;" alt="partoneplay"/>
-</a>
-<a href="https://github.com/ryanhex53" title="ryanhex53">
-  <img src="https://avatars.githubusercontent.com/u/360426?v=4" width="42;" alt="ryanhex53"/>
-</a>
-<a href="https://github.com/catcto" title="喵仙人">
-  <img src="https://avatars.githubusercontent.com/u/5467932?v=4" width="42;" alt="喵仙人"/>
-</a>
-<a href="https://github.com/itldg" title="老大哥">
-  <img src="https://avatars.githubusercontent.com/u/13432299?v=4" width="42;" alt="老大哥"/>
-</a>
-<a href="https://github.com/Country-If" title="Maylon">
-  <img src="https://avatars.githubusercontent.com/u/62837275?v=4" width="42;" alt="Maylon"/>
-</a>
-<a href="https://github.com/13812700839" title="花殇">
-  <img src="https://avatars.githubusercontent.com/u/58072506?v=4" width="42;" alt="花殇"/>
-</a>
-<a href="https://github.com/dousha0w0" title="dousha0w0">
-  <img src="https://avatars.githubusercontent.com/u/52566311?v=4" width="42;" alt="dousha0w0"/>
-</a>
-<a href="https://github.com/Brid9e" title="Joe">
-  <img src="https://avatars.githubusercontent.com/u/85558909?v=4" width="42;" alt="Joe"/>
-</a>
-<a href="https://github.com/ch3nnn" title="陈通">
-  <img src="https://avatars.githubusercontent.com/u/40114564?v=4" width="42;" alt="陈通"/>
-</a>
-<a href="https://github.com/CharlotteZeng" title="hanchZ">
-  <img src="https://avatars.githubusercontent.com/u/19461184?v=4" width="42;" alt="hanchZ"/>
-</a>
-<a href="https://github.com/Damao2250" title="Damao">
-  <img src="https://avatars.githubusercontent.com/u/19251992?v=4" width="42;" alt="Damao"/>
-</a>
-<a href="https://github.com/dasferco" title="Dasferco">
-  <img src="https://avatars.githubusercontent.com/u/92622404?v=4" width="42;" alt="Dasferco"/>
-</a>
-<a href="https://github.com/demigodliu" title="DemigodLiu">
-  <img src="https://avatars.githubusercontent.com/u/30372735?v=4" width="42;" alt="DemigodLiu"/>
-</a>
-<a href="https://github.com/eeeeeio" title="EEEEE">
-  <img src="https://avatars.githubusercontent.com/u/20723545?v=4" width="42;" alt="EEEEE"/>
-</a>
-<a href="https://github.com/Fuku-L" title="Fuku-L">
-  <img src="https://avatars.githubusercontent.com/u/38535911?v=4" width="42;" alt="Fuku-L"/>
-</a>
-<a href="https://github.com/gongyeheyu" title="GONGYE Heyu">
-  <img src="https://avatars.githubusercontent.com/u/85177605?v=4" width="42;" alt="GONGYE Heyu"/>
-</a>
-<a href="https://github.com/Ding-Kyoma" title="HooinKyoma">
-  <img src="https://avatars.githubusercontent.com/u/44542198?v=4" width="42;" alt="HooinKyoma"/>
-</a>
-<a href="https://github.com/ljq" title="Jack Liu">
-  <img src="https://avatars.githubusercontent.com/u/7278286?v=4" width="42;" alt="Jack Liu"/>
-</a>
-<a href="https://github.com/jasnzhuang" title="Jason Zhuang">
-  <img src="https://avatars.githubusercontent.com/u/16612921?v=4" width="42;" alt="Jason Zhuang"/>
-</a>
-<a href="https://github.com/JetSquirrel" title="JetSquirrel">
-  <img src="https://avatars.githubusercontent.com/u/20291255?v=4" width="42;" alt="JetSquirrel"/>
-</a>
-<a href="https://github.com/LightQuanta" title="Light_Quanta">
-  <img src="https://avatars.githubusercontent.com/u/18213217?v=4" width="42;" alt="Light_Quanta"/>
-</a>
-<a href="https://github.com/Lihuagreek" title="Lihuagreek">
-  <img src="https://avatars.githubusercontent.com/u/51040740?v=4" width="42;" alt="Lihuagreek"/>
-</a>
-<a href="https://github.com/likeshop-github" title="LikeShop技术社区">
-  <img src="https://avatars.githubusercontent.com/u/77180968?v=4" width="42;" alt="LikeShop技术社区"/>
-</a>
-<a href="https://github.com/mariuszmichalowski" title="Mariusz Michalowski">
-  <img src="https://avatars.githubusercontent.com/u/92091891?v=4" width="42;" alt="Mariusz Michalowski"/>
-</a>
-<a href="https://github.com/malcolmyu" title="Minghao Yu">
-  <img src="https://avatars.githubusercontent.com/u/3203962?v=4" width="42;" alt="Minghao Yu"/>
-</a>
-<a href="https://github.com/Moeyuuko" title="Moeyuuko">
-  <img src="https://avatars.githubusercontent.com/u/14266681?v=4" width="42;" alt="Moeyuuko"/>
-</a>
-<a href="https://github.com/Mo3et" title="Monet Lee">
-  <img src="https://avatars.githubusercontent.com/u/34803812?v=4" width="42;" alt="Monet Lee"/>
-</a>
-<a href="https://github.com/HanaNoryu" title="Noryu">
-  <img src="https://avatars.githubusercontent.com/u/109856546?v=4" width="42;" alt="Noryu"/>
-</a>
-<a href="https://github.com/Perzch" title="Perzch">
-  <img src="https://avatars.githubusercontent.com/u/67987641?v=4" width="42;" alt="Perzch"/>
-</a>
-<a href="https://github.com/PipecraftNet" title="Pipecraft">
-  <img src="https://avatars.githubusercontent.com/u/88728670?v=4" width="42;" alt="Pipecraft"/>
-</a>
-<a href="https://github.com/sevenleave" title="Poirot Hercule">
-  <img src="https://avatars.githubusercontent.com/u/24411140?v=4" width="42;" alt="Poirot Hercule"/>
-</a>
-<a href="https://github.com/QDelta" title="QDelta">
-  <img src="https://avatars.githubusercontent.com/u/60222316?v=4" width="42;" alt="QDelta"/>
-</a>
-<a href="https://github.com/RivailleF" title="RivailleF">
-  <img src="https://avatars.githubusercontent.com/u/93083015?v=4" width="42;" alt="RivailleF"/>
-</a>
-<a href="https://github.com/qinxiongzhou" title="Ryan Zhou">
-  <img src="https://avatars.githubusercontent.com/u/33239096?v=4" width="42;" alt="Ryan Zhou"/>
-</a>
-<a href="https://github.com/YLee9527" title="Terry Young">
-  <img src="https://avatars.githubusercontent.com/u/18697332?v=4" width="42;" alt="Terry Young"/>
-</a>
-<a href="https://github.com/whb1998a" title="WHB">
-  <img src="https://avatars.githubusercontent.com/u/44045064?v=4" width="42;" alt="WHB"/>
-</a>
-<a href="https://github.com/BATTLEHAWK00" title="While True: learn()">
-  <img src="https://avatars.githubusercontent.com/u/45313304?v=4" width="42;" alt="While True: learn()"/>
-</a>
-<a href="https://github.com/hi-liyan" title="嘉木旅人">
-  <img src="https://avatars.githubusercontent.com/u/40056492?v=4" width="42;" alt="嘉木旅人"/>
-</a>
-<a href="https://github.com/Yo-gurts" title="Yogurt">
-  <img src="https://avatars.githubusercontent.com/u/44612841?v=4" width="42;" alt="Yogurt"/>
-</a>
-<a href="https://github.com/dfshizhiqiang" title="Zech">
-  <img src="https://avatars.githubusercontent.com/u/7030019?v=4" width="42;" alt="Zech"/>
-</a>
-<a href="https://github.com/yikuaibro" title="yikuaibro">
-  <img src="https://avatars.githubusercontent.com/u/44493045?v=4" width="42;" alt="yikuaibro"/>
-</a>
-<a href="https://github.com/zhu0629" title="Zhu">
-  <img src="https://avatars.githubusercontent.com/u/13188450?v=4" width="42;" alt="Zhu"/>
-</a>
-<a href="https://github.com/Leaderzhangyi" title="ZinkCas">
-  <img src="https://avatars.githubusercontent.com/u/46915666?v=4" width="42;" alt="ZinkCas"/>
-</a>
-<a href="https://github.com/y52y" title="Zyj">
-  <img src="https://avatars.githubusercontent.com/u/51304324?v=4" width="42;" alt="Zyj"/>
-</a>
-<a href="https://github.com/Lmmmmmm-bb" title="_lmmmmmm">
-  <img src="https://avatars.githubusercontent.com/u/54026110?v=4" width="42;" alt="_lmmmmmm"/>
-</a>
-<a href="https://github.com/chyok" title="chyok">
-  <img src="https://avatars.githubusercontent.com/u/32629225?v=4" width="42;" alt="chyok"/>
-</a>
-<a href="https://github.com/gaoxiaoduan" title="Jerrod Cole">
-  <img src="https://avatars.githubusercontent.com/u/69953511?v=4" width="42;" alt="Jerrod Cole"/>
-</a>
-<a href="https://github.com/cool9203" title="cool9203">
-  <img src="https://avatars.githubusercontent.com/u/29609607?v=4" width="42;" alt="cool9203"/>
-</a>
-<a href="https://github.com/fakevn" title="fakevn">
-  <img src="https://avatars.githubusercontent.com/u/11464386?v=4" width="42;" alt="fakevn"/>
-</a>
-<a href="https://github.com/fjqz177" title="fjqz177">
-  <img src="https://avatars.githubusercontent.com/u/83070583?v=4" width="42;" alt="fjqz177"/>
-</a>
-<a href="https://github.com/gi-b716" title="gi-b716">
-  <img src="https://avatars.githubusercontent.com/u/78394473?v=4" width="42;" alt="gi-b716"/>
-</a>
-<a href="https://github.com/godotc" title="godot42">
-  <img src="https://avatars.githubusercontent.com/u/79260851?v=4" width="42;" alt="godot42"/>
-</a>
-<a href="https://github.com/greyhao" title="greyhao">
-  <img src="https://avatars.githubusercontent.com/u/107107440?v=4" width="42;" alt="greyhao"/>
-</a>
-<a href="https://github.com/sunny0826" title="Xudong Guo">
-  <img src="https://avatars.githubusercontent.com/u/24563928?v=4" width="42;" alt="Xudong Guo"/>
-</a>
-<a href="https://github.com/gzttcydxx" title="gzttcydxx">
-  <img src="https://avatars.githubusercontent.com/u/50025185?v=4" width="42;" alt="gzttcydxx"/>
-</a>
-<a href="https://github.com/hua03" title="hua03">
-  <img src="https://avatars.githubusercontent.com/u/19561959?v=4" width="42;" alt="hua03"/>
-</a>
-<a href="https://github.com/yanxuplay" title="hupilan">
-  <img src="https://avatars.githubusercontent.com/u/69749541?v=4" width="42;" alt="hupilan"/>
-</a>
-<a href="https://github.com/hweining" title="hweining">
-  <img src="https://avatars.githubusercontent.com/u/8973985?v=4" width="42;" alt="hweining"/>
-</a>
-<a href="https://github.com/auroraslot" title="Tang Weize">
-  <img src="https://avatars.githubusercontent.com/u/48817882?v=4" width="42;" alt="Tang Weize"/>
-</a>
-<a href="https://github.com/joyfully-W" title="joyfully-W">
-  <img src="https://avatars.githubusercontent.com/u/32212924?v=4" width="42;" alt="joyfully-W"/>
-</a>
-<a href="https://github.com/k983551019" title="k983551019">
-  <img src="https://avatars.githubusercontent.com/u/48147837?v=4" width="42;" alt="k983551019"/>
-</a>
-<a href="https://github.com/kdxcxs" title="kdxcxs">
-  <img src="https://avatars.githubusercontent.com/u/18746192?v=4" width="42;" alt="kdxcxs"/>
-</a>
-<a href="https://github.com/genius-kim" title="kim">
-  <img src="https://avatars.githubusercontent.com/u/119488561?v=4" width="42;" alt="kim"/>
-</a>
-<a href="https://github.com/kubeme" title="kubernetes for me">
-  <img src="https://avatars.githubusercontent.com/u/16346220?v=4" width="42;" alt="kubernetes for me"/>
-</a>
-<a href="https://github.com/larry-xue" title="larry">
-  <img src="https://avatars.githubusercontent.com/u/48818060?v=4" width="42;" alt="larry"/>
-</a>
-<a href="https://github.com/liliangrong777" title="liliangrong777">
-  <img src="https://avatars.githubusercontent.com/u/58727146?v=4" width="42;" alt="liliangrong777"/>
-</a>
-<a href="https://github.com/lykjjj" title="lykjjj">
-  <img src="https://avatars.githubusercontent.com/u/58510058?v=4" width="42;" alt="lykjjj"/>
-</a>
-<a href="https://github.com/miclon-dev" title="miclon-dev">
-  <img src="https://avatars.githubusercontent.com/u/111753685?v=4" width="42;" alt="miclon-dev"/>
-</a>
-<a href="https://github.com/onewesong" title="onewesong">
-  <img src="https://avatars.githubusercontent.com/u/17920822?v=4" width="42;" alt="onewesong"/>
-</a>
-<a href="https://github.com/phygerr" title="phygerr">
-  <img src="https://avatars.githubusercontent.com/u/42068889?v=4" width="42;" alt="phygerr"/>
-</a>
-<a href="https://github.com/Mowmowj" title="shelton">
-  <img src="https://avatars.githubusercontent.com/u/24759562?v=4" width="42;" alt="shelton"/>
-</a>
-<a href="https://github.com/swift-fs" title="swift">
-  <img src="https://avatars.githubusercontent.com/u/77133741?v=4" width="42;" alt="swift"/>
-</a>
-<a href="https://github.com/wannima66" title="tmen">
-  <img src="https://avatars.githubusercontent.com/u/26410255?v=4" width="42;" alt="tmen"/>
-</a>
-<a href="https://github.com/wjjwkwindy" title="Hudson Alen">
-  <img src="https://avatars.githubusercontent.com/u/9508591?v=4" width="42;" alt="Hudson Alen"/>
-</a>
-<a href="https://github.com/xing133" title="xing133">
-  <img src="https://avatars.githubusercontent.com/u/5336490?v=4" width="42;" alt="xing133"/>
-</a>
-<a href="https://github.com/hiyms" title="yms">
-  <img src="https://avatars.githubusercontent.com/u/84654050?v=4" width="42;" alt="yms"/>
-</a>
-<a href="https://github.com/zxx457" title="zxx457">
-  <img src="https://avatars.githubusercontent.com/u/114141362?v=4" width="42;" alt="zxx457"/>
-</a>
-<a href="https://github.com/lvzhenbo" title="吕振波">
-  <img src="https://avatars.githubusercontent.com/u/32427677?v=4" width="42;" alt="吕振波"/>
-</a>
-<a href="https://github.com/LuckyJie12" title="夜未央">
-  <img src="https://avatars.githubusercontent.com/u/102901105?v=4" width="42;" alt="夜未央"/>
-</a>
-<a href="https://github.com/ZIDOUZI" title="ZIDOUZI">
-  <img src="https://avatars.githubusercontent.com/u/53157536?v=4" width="42;" alt="ZIDOUZI"/>
-</a>
-<a href="https://github.com/lisheng741" title="芦荟柚子茶">
-  <img src="https://avatars.githubusercontent.com/u/53617305?v=4" width="42;" alt="芦荟柚子茶"/>
-</a>
-<a href="https://github.com/1250422131" title="萌新杰少">
-  <img src="https://avatars.githubusercontent.com/u/52126790?v=4" width="42;" alt="萌新杰少"/>
-</a>
-<a href="https://github.com/qwxingzhe" title="行者">
-  <img src="https://avatars.githubusercontent.com/u/7071651?v=4" width="42;" alt="行者"/>
-</a>
-<a href="https://github.com/binscor" title="郑乃斌">
-  <img src="https://avatars.githubusercontent.com/u/37325821?v=4" width="42;" alt="郑乃斌"/>
-</a>
-<a href="https://github.com/Zeng-qh" title="都一样">
-  <img src="https://avatars.githubusercontent.com/u/40046415?v=4" width="42;" alt="都一样"/>
-</a><!--GAMFC-END-->
+- [Neo4j](https://cheatsheets.zip/neo4j.html): A Neo4j cheat sheet with getting started resources and information on how to query the database with Cypher.
+- [PostgreSQL](https://cheatsheets.zip/postgres.html): The [PostgreSQL](https://www.postgresql.org/docs/current/) cheat sheet provides you with the common PostgreSQL commands and statements.
+- [Redis](https://cheatsheets.zip/redis.html): This is a [redis](https://redis.io/) quick reference cheat sheet that lists examples of redis commands
+- [MySQL](https://cheatsheets.zip/mysql.html): The SQL cheat sheet provides you with the most commonly used SQL statements for your reference.
 
-[贡献者](https://github.com/jaywcjlove/reference/graphs/contributors)列表，由 [contributors](https://github.com/jaywcjlove/github-action-contributors) 根据提交次数的先后顺序自动生成
-<!--rehype:style=padding-top:1rem;-->
+</details>
 
-## 国内镜像网站
-<!--rehype:wrap-style=text-align: center;max-width: 650px;margin: 0 auto;&class=home-title-reset-->
+<details>
+<summary>Keyboard Shortcuts</summary>
 
-由于中国国内访问，时常打不开，你可以访问下面镜像网站。推荐自己的[镜像网站](https://github.com/jaywcjlove/reference/discussions/206#discussion-4625735)
+- [Adobe Photoshop](https://cheatsheets.zip/adobe-photoshop.html): A visual cheat-sheet for the 283 keyboard shortcuts found in Adobe Photoshop
+- [Apex Legends](https://cheatsheets.zip/apex-legends.html): A visual cheat-sheet for the 27 default keyboard shortcuts found in Apex Legends
+- [Figma](https://cheatsheets.zip/figma.html): A visual cheat-sheet for the 119 keyboard shortcuts found in Figma
+- [Microsoft Teams](https://cheatsheets.zip/microsoft-teams.html): A visual cheat-sheet for the 38 keyboard shortcuts found in Microsoft Teams
+- [TablePlus](https://cheatsheets.zip/table-plus.html): A visual cheat-sheet for the 34 keyboard shortcuts found in TablePlus
+- [Bear](https://cheatsheets.zip/bear-notes.html): A visual cheat-sheet for the 66 keyboard shortcuts found in Bear. This application is MacOS-only.
+- [Feedly](https://cheatsheets.zip/feedly.html): A visual cheat-sheet for the 25 keyboard shortcuts found on the Feedly app
+- [FileZilla](https://cheatsheets.zip/filezilla.html): A visual cheat-sheet for the 30 keyboard shortcuts found on the FileZilla program
+- [Reddit](https://cheatsheets.zip/reddit.html): A visual cheat-sheet for the 17 keyboard shortcuts found on Reddit.com
+- [Slack](https://cheatsheets.zip/slack.html): A visual cheat-sheet for the 62 keyboard shortcuts found in Slack
+- [SoundCloud](https://cheatsheets.zip/soundcloud.html): A visual cheat-sheet for the 22 keyboard shortcuts found on SoundCloud
+- [Twitter](https://cheatsheets.zip/twitter.html): A visual cheat-sheet for the 26 keyboard shortcuts found on Twitter
+- [Android Studio](https://cheatsheets.zip/android-studio.html): A visual cheat-sheet for the 130 keyboard shortcuts found in the Andriod Studio software
+- [Github](https://cheatsheets.zip/github.html): A visual cheat-sheet for the 80 keyboard shortcuts found on Github.com
+- [Shopify](https://cheatsheets.zip/shopify.html): A visual cheat-sheet for the 50 keyboard shortcuts found on the Shopify website
+- [Zoom](https://cheatsheets.zip/zoom.html): A visual cheat-sheet for the 32 keyboard shortcuts found in Zoom. These shortcuts are for MacOS, for Windows visit /zoom-windows.
+- [Adobe XD](https://cheatsheets.zip/adobe-xd.html): A visual cheat-sheet for the 97 keyboard shortcuts found in Adobe XD
+- [Firefox](https://cheatsheets.zip/firefox.html): A visual cheat-sheet for the 116 keyboard shortcuts found in Firefox
+- [PhpStorm](https://cheatsheets.zip/phpstorm.html): A visual cheat-sheet for the 96 keyboard shortcuts found in JetBrains PhpStorm
+- [Postman](https://cheatsheets.zip/postman.html): A visual cheat-sheet for the 23 keyboard shortcuts found in Postman
+- [Webflow](https://cheatsheets.zip/webflow.html): A visual cheat-sheet for the 41 keyboard shortcuts found in Webflow
+- [Adobe Lightroom CC](https://cheatsheets.zip/adobe-lightroom.html): A visual cheat-sheet for the 251 keyboard shortcuts found in Adobe Lightroom CC
+- [1Password](https://cheatsheets.zip/1password.html): A cheat sheet for 1password's keyboard shortcuts in Mac, Windows, iOS, Linux.
+- [Affinity Designer](https://cheatsheets.zip/affinity-designer.html): A visual cheat-sheet for the 108 keyboard shortcuts found in Affinity Designer
+- [Pocket](https://cheatsheets.zip/pocket.html): A visual cheat-sheet for the 36 keyboard shortcuts found on Pocket for Web
+- [Trello](https://cheatsheets.zip/trello.html): A visual cheat-sheet for the 29 keyboard shortcuts found on Trello
+- [Audacity](https://cheatsheets.zip/audacity.html): A visual cheat-sheet for the 135 default keyboard shortcuts found in Audacity
+- [Framer X](https://cheatsheets.zip/framer-x.html): A visual cheat-sheet for the 45 keyboard shortcuts found in Framer X. This application is MacOS-only.
+- [Google Drive](https://cheatsheets.zip/google-drive.html): A visual cheat-sheet for the 54 keyboard shortcuts found in Google Drive on the web
+- [PuTTy](https://cheatsheets.zip/putty.html): A visual cheat-sheet for the 32 keyboard shortcuts found on the PuTTy app
+- [Sequel Pro](https://cheatsheets.zip/sequel-pro.html): A visual cheat-sheet for the 71 keyboard shortcuts found in Sequel Pro. This application is MacOS-only.
+- [Apple Music](https://cheatsheets.zip/apple-music.html): A visual cheat-sheet for the 62 keyboard shortcuts found in the Apple Music app. This application is MacOS-only.
+- [Blender](https://cheatsheets.zip/blender.html): A visual cheat-sheet for the 187 keyboard shortcuts found in Blender
+- [Obsidian](https://cheatsheets.zip/obsidian.html): A visual cheat-sheet for the 17 keyboard shortcuts found in the Obsidian knowledge base app.
+- [Telegram Desktop](https://cheatsheets.zip/telegram.html): A visual cheat-sheet for the 37 keyboard shortcuts found on the Telegram Desktop app
+- [YouTube](https://cheatsheets.zip/youtube.html): A visual cheat-sheet for the 18 keyboard shortcuts found on YouTube.com
+- [Airtable](https://cheatsheets.zip/airtable.html): A visual cheat-sheet for the 36 keyboard shortcuts found in Airtable
+- [Bitbucket](https://cheatsheets.zip/bitbucket.html): A visual cheat-sheet for the 35 keyboard shortcuts found on Bitbucket
+- [Fortnite](https://cheatsheets.zip/fortnite.html): A visual cheat-sheet for the 26 default keyboard shortcuts found in Fortnite
+- [Gmail](https://cheatsheets.zip/gmail.html): A visual cheat-sheet for the 90 keyboard shortcuts found on Gmail
+- [Sketch](https://cheatsheets.zip/sketch.html): A visual cheat-sheet for the 149 keyboard shortcuts found in Sketch. This application is MacOS-only.
+- [Spotify](https://cheatsheets.zip/spotify.html): A visual cheat-sheet for the 23 keyboard shortcuts found in Spotify
+- [Brave Browser](https://cheatsheets.zip/brave.html): A visual cheat-sheet for the 64 keyboard shortcuts found in the Brave browser
+- [KanbanMail](https://cheatsheets.zip/kanbanmail.html): A visual cheat-sheet for the 29 keyboard shortcuts found in KanbanMail
+- [Microsoft Outlook](https://cheatsheets.zip/outlook.html): A visual cheat-sheet for the 210 keyboard shortcuts found in Microsoft Outlook
+- [Principle](https://cheatsheets.zip/principle.html): A visual cheat-sheet for the 30 keyboard shortcuts found in Principle. This application is MacOS-only.
+- [Skype](https://cheatsheets.zip/skype.html): A visual cheat-sheet for the 31 keyboard shortcuts found in Skype
+- [Arduino IDE](https://cheatsheets.zip/arduino.html): A visual cheat-sheet for the 12 keyboard shortcuts found in the Arduino IDE
+- [Asana](https://cheatsheets.zip/asana.html): A visual cheat-sheet for the 40 keyboard shortcuts found in Asana
+- [Code Editor for iOS](https://cheatsheets.zip/code-editor-ios.html): A visual cheat-sheet for the 43 keyboard shortcuts found in the Code Editor for iOS app. This application is MacOS-only.
+- [Jira](https://cheatsheets.zip/jira.html): A visual cheat-sheet for the 44 keyboard shortcuts found in Jira
+- [Quip.com](https://cheatsheets.zip/quip.html): A visual cheat-sheet for the 52 keyboard shortcuts found in Quip
+- [WordPress](https://cheatsheets.zip/wordpress.html): A visual cheat-sheet for the 34 keyboard shortcuts found in the WordPress visual editor
+- [Chrome Developer Tools](https://cheatsheets.zip/chrome-devtools.html): A visual cheat-sheet for the 56 keyboard shortcuts found in Chrome's Developer Tools
+- [GIMP](https://cheatsheets.zip/gimp.html): A visual cheat-sheet for the 97 keyboard shortcuts found in GIMP
+- [Google Chrome](https://cheatsheets.zip/google-chrome.html): A visual cheat-sheet for the 65 keyboard shortcuts found in Google Chrome
+- [Todoist](https://cheatsheets.zip/todoist.html): A visual cheat-sheet for the 37 keyboard shortcuts found in Todoist
+- [TickTick](https://cheatsheets.zip/ticktick.html): A visual cheat-sheet for the 25 keyboard shortcuts found in the TickTick desktop app
+- [VLC Player](https://cheatsheets.zip/vlc.html): A visual cheat-sheet for the 82 keyboard shortcuts found in VLC Player
+- [Missive](https://cheatsheets.zip/missive.html): A visual cheat-sheet for the 83 keyboard shortcuts found in Missive
+- [Origami Studio](https://cheatsheets.zip/origami.html): A visual cheat-sheet for the 71 keyboard shortcuts found in Origami Studio. This application is MacOS-only.
+- [Sublime Text](https://cheatsheets.zip/sublime-text.html): A visual cheat-sheet for the 49 keyboard shortcuts found in Sublime Text
+- [Transmit](https://cheatsheets.zip/transmit.html): A visual cheat-sheet for the 62 keyboard shortcuts found in Transmit. This application is MacOS-only.
+- [Affinity Photo](https://cheatsheets.zip/affinity-photo.html): A visual cheat-sheet for the 177 keyboard shortcuts found in Affinity Photo
+- [Monday.com](https://cheatsheets.zip/monday.html): A visual cheat-sheet for the 24 keyboard shortcuts found on Monday.com
+- [Proto.io](https://cheatsheets.zip/proto-io.html): A visual cheat-sheet for the 48 keyboard shortcuts found in Proto.io
+- [Superhuman](https://cheatsheets.zip/superhuman.html): A visual cheat-sheet for the 105 keyboard shortcuts found in Superhuman. This application is MacOS-only.
+- [Vivaldi Browser](https://cheatsheets.zip/vivaldi.html): A visual cheat-sheet for the 69 default keyboard shortcuts found in the Vivaldi browser
+- [Finder](https://cheatsheets.zip/finder.html): A visual cheat-sheet for the 55 keyboard shortcuts found in Finder. This application is part of MacOS.
+- [GitLab](https://cheatsheets.zip/gitlab.html): A visual cheat-sheet for the 58 keyboard shortcuts found in GitLab
+- [Guitar Pro](https://cheatsheets.zip/guitar-pro.html): A visual cheat-sheet for the 129 keyboard shortcuts found in Guitar Pro
+- [Roam Research](https://cheatsheets.zip/roam.html): A visual cheat-sheet for the 45 keyboard shortcuts found on Roam Research
+- [SketchUp Pro](https://cheatsheets.zip/sketchup.html): A visual cheat-sheet for the 135 default keyboard shortcuts found in SketchUp Pro
+- [Unity 3D](https://cheatsheets.zip/unity-3d.html): A visual cheat-sheet for the 50 keyboard shortcuts found in Unity 3D
+- [IntelliJ IDEA](https://cheatsheets.zip/idea.html): IntelliJ IDEA is a very good Java IDE, most of its commands have shortcuts to keep your hands from leaving the keyboard
+- [WebStorm](https://cheatsheets.zip/webstorm.html): This quick reference cheat sheet lists the default keyboard shortcuts for WebStorm running on Windows/Linux or Mac
 
-[quickref.cn](https://quickref.cn)<!--rehype:target=_blank-->
-[ecdata.cn](http://ref.ecdata.cn)<!--rehype:target=_blank-->
-[aibk.cn](https://quickref.aibk.cn)<!--rehype:target=_blank-->
-[jgeek.cn](http://reference.jgeek.cn/)<!--rehype:target=_blank-->
-[laoleng.vip](http://bbs.laoleng.vip/reference/)<!--rehype:target=_blank-->
-[dbyun.net](https://www.dbyun.net/reference/index.html)<!--rehype:target=_blank-->
-[if010.com](https://quickref.if010.com/)<!--rehype:target=_blank-->
-[pipecraft.net](https://quickref.pipecraft.net/)<!--rehype:target=_blank&class=contributing&data-info=👆需要梯子-->
-[isteed.cc](https://ref.isteed.cc/)<!--rehype:target=_blank-->
-[1han.wiki](https://code.1han.wiki/)<!--rehype:target=_blank-->
-[linzhe.top](https://linzhe.top/)<!--rehype:target=_blank-->
-[xushanxiang.com](https://xushanxiang.com/ref/)<!--rehype:target=_blank-->
-[winnerzr01.github.io](https://winnerzr01.github.io/Quick-Reference/index.html)<!--rehype:target=_blank&class=contributing&data-info=👆需要梯子-->
-[quickref.hestudio.net](https://quickref.hestudio.net)<!--rehype:target=_blank&class=contributing&data-info=👆整点自动同步-->
-[surcode.cn](https://ref.surcode.cn)<!--rehype:target=_blank-->
-[cms.im](https://quickref.cms.im/)<!--rehype:target=_blank-->
-[nuomiphp.com](https://reference.tool.nuomiphp.com/)<!--rehype:target=_blank-->
-[eryajf.net](https://ref.eryajf.net/)<!--rehype:target=_blank&class=contributing&data-info=👆每天自动同步-->
-[kjchmc.cn](https://ref.kjchmc.cn/)<!--rehype:target=_blank&class=contributing&data-info=👆实时同步，多线路-->
-[qiubit.cc](http://ref.qiubit.cc)<!--rehype:target=_blank&class=contributing&data-info=👆每天自动同步-->
-[aoh.cc](https://aoh.cc/)<!--rehype:target=_blank-->
-[quickreference.pages.dev](https://quickreference.pages.dev/)<!--rehype:target=_blank-->
-[xhfun.cn](https://ref.xhfun.cn/)<!--rehype:target=_blank&class=contributing&data-info=👆每天自动同步-->
-[caitou.org](https://quickref.caitou.org/)<!--rehype:target=_blank&class=contributing&data-info=👆每天自动同步-->
-[guoxudong.io](https://reference.guoxudong.io/)<!--rehype:target=_blank&class=contributing&data-info=👆每天自动同步-->
-[btaw.cn](https://btaw.cn/qr)<!--rehype:target=_blank&class=contributing-->
-[lzw.me](https://lzw.me/x/reference/)<!--rehype:target=_blank-->
-[itcent.cn](https://code.itcent.cn/)<!--rehype:target=_blank-->
-[moeyuuko.com](https://ref.moeyuuko.com/)<!--rehype:target=_blank&class=contributing&data-info=👆每天自动同步-->
-[coolxy.top](https://refer.coolxy.top)<!--rehype:target=_blank-->
-[notes-bin.top](https://notes-bin.top)<!--rehype:target=_blank-->
-[tangcc.cn](https://web.tangcc.cn)<!--rehype:target=_blank-->
-[xadocker.cn](https://reference.xadocker.cn)<!--rehype:target=_blank-->
-[trtu.com.cn](https://reference.trtu.com.cn)<!--rehype:target=_blank-->
-[lzzzt.cn](https://ref.lzzzt.cn)<!--rehype:target=_blank-->
-[kclouder.cn](https://www.kclouder.cn/reference)<!--rehype:target=_blank-->
-[defense.ink](https://ref.defense.ink)<!--rehype:target=_blank&class=contributing&data-info=👆每天自动同步-->
-[djcoder.com](https://doc.djcoder.com)<!--rehype:target=_blank-->
-[qirishuzhai.com](http://qirishuzhai.com/quickref)<!--rehype:target=_blank-->
-[longdada.me](https://ref.longdada.me)<!--rehype:target=_blank-->
-[xalaok.top](https://ref.xalaok.top)<!--rehype:target=_blank-->
-[dadatom.com](https://tools.dadatom.com/reference/)<!--rehype:target=_blank&class=contributing&data-info=👆支持ipv4和ipv6-->
-[zhangyuanqian.top](https://reference.zhangyuanqian.top/)<!--rehype:target=_blank-->
-[sosloli.com](https://ref.sosloli.com)<!--rehype:target=_blank-->
-[chenze.cloud](https://quick.chenze.cloud)<!--rehype:target=_blank-->
-[ref.v-ta.com](https://ref.v-ta.com)<!--rehype:target=_blank-->
-[terryyoung.cn](http://ref.terryyoung.cn/)<!--rehype:target=_blank&class=contributing&data-info=👆每周一三五自动同步-->
-[hao.kim](https://ref.hao.kim)<!--rehype:target=_blank-->
-[quickref.binscor.top](https://quickref.binscor.top)<!--rehype:target=_blank&data-info=👆每天自动同步-->
-[fxkjnj.com](https://ref.fxkjnj.com/)<!--rehype:target=_blank-->
-<!--rehype:class=home-card home-links-->
+</details>
 
-如果你有资源，可以很方便[部署 web 版](https://github.com/jaywcjlove/reference/issues/102#issue-1451649637)，这非常简单，只需要克隆 [gh-pages](https://github.com/jaywcjlove/reference/tree/gh-pages) 分支代码到你的静态服务就可以了，还可以使用 [docker](https://hub.docker.com/r/wcjiang/reference) 快捷部署 web 版。
+<details>
+<summary>Other</summary>
 
-<!--rehype:ignore:start-->
-## License
+- [Google Search](https://cheatsheets.zip/google-search.html): This quick reference cheat sheet lists of Google advanced search operators.
+- [ASCII Code](https://cheatsheets.zip/ascii-code.html): This cheat sheet is a complete list of ASCII Code Table with their numbers and names.
+- [Aspect Ratio](https://cheatsheets.zip/aspect-ratio.html): This cheat sheet lists some common aspect ratios and their pixel resolutions. Always confirm your final delivery ratio when shooting.
+- [HTML Characters Entities](https://cheatsheets.zip/html-char.html): This cheat sheet is a complete list of HTML entities with their numbers and names. Also included is a full list of ASCII characters that can be represented in HTML.
+- [ISO 639-1 Language Code](https://cheatsheets.zip/iso-639-1.html): This is a list of the ISO language codes that conform to the ISO 639-1 standard, it provide reference for multi-language website.
+- [Resolutions](https://cheatsheets.zip/resolutions.html): This cheat sheet lists screen sizes, viewport size and CSS media queries for popular Phones, Tablets, Laptops and Watches
+- [HTTP Status Code](https://cheatsheets.zip/http-status-code.html): The http status codes cheat sheet. a quick reference to every HTTP status code.
+- [Emoji](https://cheatsheets.zip/emoji.html): Some of the emoji codes are not super easy to remember, so here is a little cheat sheet.
+- [CheatSheets](https://cheatsheets.zip/quickref.html): This is the magic syntax variant manual that you can use on CheatSheets.zip, It's a good practice for contributors.
+- [MIME types](https://cheatsheets.zip/mime.html): This cheat sheet lists some common MIME types for the Web. You can look in the [IANA/MIME Media Types registry](http://www.iana.org/assignments/media-types/index.html) which contains all registered MIME types.
 
-MIT © [Kenny Wong](https://github.com/jaywcjlove)
-<!--rehype:ignore:end-->
+</details>
+
+
+
+## 🗂️ Directory structure
+```
+.
+├── source
+│   ├── _posts   # Cheat sheet source files
+│   │   ├── awk.md
+│   │   ├── vim.md # => https://cheatsheets.zip/vim
+│   │   ├── php.md
+│   │   ├── css.md # => https://cheatsheets.zip/css
+│   │   ├── ...
+│   └── widget   # Widget files
+│       └── chmod.html
+├── public       # Distribution files
+├── _config.yml
+├── gulpfile.js
+├── package.json
+├── postcss.config.js
+├── tailwind.config.js
+└── themes
+    └── coo      # Theme files
+```
+
+
+
+
+## 🤝 Contributing
+
+We would like to extend our gratitude to you for considering a contribution to Reference. Your support is what makes CheatSheets.zip a truly amazing resource. Please feel free to [submit issues](https://github.com/Fechin/reference/issues/new?assignee=Fechin) and enhancement requests.
+
+For consistency, we encourage you to refer to the [https://cheatsheets.zip/quickref](https://cheatsheets.zip/quickref) when creating or editing cheat sheets. To get started with development, follow these steps:
+
+1. Clone Github repo `git clone https://github.com/Fechin/reference.git`
+2. Install `npm` package manager (Read [installation guide](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm))
+3. Run `npm install` in the root folder to install dependencies.
+4. Run `npm run dev` to start a dev server. This serves the project and live reloads when any files are changed, then visit http://127.0.0.1:4000 preview.
+5. Submit a pull request and wait for it to be reviewed and merged.
+
+
+
+To create or edit a cheat sheet, you'll need to create or edit a markdown file in `source/_posts/{filename}.md`. The file should include a front matter section with the following format:
+
+
+```markdown
+---
+title: CheatSheets
+date: 2020-11-25 18:28:43
+icon: icon-style
+background: bg-emerald-600
+tags:
+categories:
+- Other
+  intro: This is a reference of styles that you can use on quickref cheat sheets!
+---
+```
+Only the `title` and `intro` fields are required, and the other options can be left blank. 
+
+
+<a href="https://github.com/Fechin/reference/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=Fechin/reference" />
+</a>
+
+
+## 🐦 Follow us on Twitter
+
+[![Follow us on Twitter](https://img.shields.io/twitter/follow/FechinLi?color=%234a99e9&style=for-the-badge)](https://twitter.com/FechinLi)
+
+Stay up-to-date with our project by following us on Twitter! Get all the latest news and updates right in your feed. It's the perfect way to stay in the loop.
+
+<a href="https://www.buymeacoffee.com/randy8080"><img src="https://img.buymeacoffee.com/button-api/?text=Buy me a coffee&emoji=&slug=randy8080&button_colour=40DCA5&font_colour=ffffff&font_family=Cookie&outline_colour=000000&coffee_colour=FFDD00" /></a>
+
+
+## 📃 License
+
+The project is licensed under the [MIT](https://github.com/Fechin/reference/blob/main/LICENSE) License and is maintained by [Fechin](https://github.com/Fechin).
+

@@ -1,40 +1,77 @@
 {
-  "name": "@wcj/reference",
-  "version": "1.38.0",
-  "description": "为开发人员分享快速参考备忘单(主要是方便自己)。",
-  "author": "jaywcjlove",
-  "license": "MIT",
-  "homepage": "https://jaywcjlove.github.io/reference",
-  "private": false,
+  "name": "CheatSheets.zip",
+  "version": "1.0.0",
+  "private": true,
   "scripts": {
-    "prepare": "husky install",
-    "build": "refs-cli",
-    "start": "refs-cli --watch",
-    "prettier": "prettier --write '**/*.{mjs,css,json,prettierrc,lintstagedrc}'",
-    "markdownlint": "npx markdownlint-cli --fix ./docs/*.md"
+    "dev": "run-p dev:*",
+    "dev:hexo": "npx hexo clean && npx hexo server",
+    "dev:css": "npx postcss themes/coo/source/css/style.tailwindcss -o themes/coo/source/css/style.css --watch",
+    "build": "run-s build:*",
+    "build:clean": "npx hexo clean",
+    "build:rm-db.json": "rm db.json || exit 0",
+    "build:css": "npx postcss themes/coo/source/css/style.tailwindcss -o themes/coo/source/css/style.css",
+    "build:generate": "npx hexo generate",
+    "build:gulp": "npx gulp --max-old-space-size=4096"
   },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/jaywcjlove/reference.git"
+  "hexo": {
+    "version": "5.4.2"
   },
-  "bugs": {
-    "url": "https://github.com/jaywcjlove/reference/issues"
-  },
-  "keywords": [],
-  "lint-staged": {
-    "**/*.{mjs,css,json,prettierrc,lintstagedrc}": "prettier --write",
-    "*.md": "markdownlint --fix",
-    "docs/*.md": "markdownlint --fix"
+  "dependencies": {
+    "eslint": "^8.27.0",
+    "gulp": "^4.0.2",
+    "gulp-cli": "^2.3.0",
+    "gulp-ext-replace": "^0.3.0",
+    "gulp-htmlclean": "^2.7.22",
+    "gulp-htmlmin": "^5.0.1",
+    "gulp-minify-css": "^1.2.4",
+    "gulp-postcss": "^9.0.1",
+    "gulp-uglify-es": "^3.0.0",
+    "gulp-version-number": "^0.2.4",
+    "hexo": "^5.4.0",
+    "hexo-browsersync": "^0.3.0",
+    "hexo-cli": "^4.3.0",
+    "hexo-excerpt": "^1.2.1",
+    "hexo-filter-nofollow": "^2.0.2",
+    "hexo-generator-index": "^2.0.0",
+    "hexo-generator-sitemap": "^2.2.0",
+    "hexo-log": "^3.0.0",
+    "hexo-pagination": "^2.0.0",
+    "hexo-related-popular-posts": "^5.0.1",
+    "hexo-renderer-ejs": "^2.0.0",
+    "hexo-renderer-markdown-it": "^5.0.0",
+    "hexo-renderer-stylus": "^2.0.1",
+    "hexo-server": "^2.0.0",
+    "markdown-it-abbr": "^1.0.4",
+    "markdown-it-anchor": "^8.4.1",
+    "markdown-it-attrs": "^4.1.0",
+    "markdown-it-checkbox": "^1.1.0",
+    "markdown-it-emoji": "^2.0.0",
+    "markdown-it-footnote": "^3.0.3",
+    "markdown-it-highlight-lines": "^1.0.2",
+    "markdown-it-highlightjs": "^3.5.0",
+    "markdown-it-ins": "^3.0.1",
+    "markdown-it-multimd-table": "^4.1.1",
+    "markdown-it-shortcode-tag": "^1.1.0",
+    "markdown-it-sub": "^1.0.0",
+    "markdown-it-sup": "^1.0.0",
+    "markdown-it-task-lists": "^2.1.1"
   },
   "devDependencies": {
-    "husky": "^8.0.1",
-    "lint-staged": "^13.0.3",
-    "prettier": "^2.7.1",
-    "refs-cli": "^1.4.1",
-    "markdownlint": "^0.27.0",
-    "markdownlint-cli": "^0.33.0"
-  },
-  "engines": {
-    "node": ">=16.0.0"
+    "autoprefixer": "^10.4.0",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-filesize": "^0.0.6",
+    "gulp-javascript-obfuscator": "^1.1.6",
+    "gulp-replace": "^1.1.3",
+    "gulp-rev": "^9.0.0",
+    "gulp-terser": "^2.1.0",
+    "npm-run-all": "^4.1.5",
+    "postcss": "^8.4.4",
+    "postcss-cli": "^9.1.0",
+    "postcss-import": "^14.0.2",
+    "postcss-minify": "^1.1.0",
+    "sync-request": "^6.1.0",
+    "tailwindcss": "^3.0.1",
+    "tailwindcss-animate": "^1.0.5",
+    "tailwindcss-cli": "^0.1.2"
   }
 }

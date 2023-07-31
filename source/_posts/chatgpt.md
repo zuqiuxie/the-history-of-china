@@ -21,7 +21,7 @@ plugins:
 - **中文名：夏朝**
 
   ```{.wrap}
-  Can you suggest a creative name for my tech startup?
+  测试
   ```
 
   ```{.wrap}
@@ -54,7 +54,7 @@ plugins:
   ```{.wrap}
   What are some unique gifts I can give to my business partners?
   ```
-- **Choose a random contest winner(s) from a long list of names or emails**
+- **帝    王：姒启，姒太康，姒少康，姒桀等**
 
   ```{.wrap}
   I want to choose a winner from a list of 100 names, can you help?

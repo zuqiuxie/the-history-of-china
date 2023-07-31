@@ -13,12 +13,12 @@ intro: 中国史书中记载的第一个世袭制朝代
 plugins:
     - copyCode
 ---
-国号
+简述
 ----
 
-### 国号
+### 简述
 
-- **Name your business or idea**
+- **中文名：夏朝**
 
   ```{.wrap}
   Can you suggest a creative name for my tech startup?
@@ -27,7 +27,7 @@ plugins:
   ```{.wrap}
   Help me come up with a catchy name for my bakery business.
   ```
-- **Create an outline for a course or training program**
+- **外文名：The Xia Dynasty**
 
   ```{.wrap}
   Please create an outline for a course on web development for beginners.
@@ -36,7 +36,7 @@ plugins:
   ```{.wrap}
   Can you make a training program outline for a customer service workshop?
   ```
-- **Ask you interview questions for a specific job**
+- **别    名：夏、西邑夏、西邑、有夏**
 
   ```{.wrap}
   I'm interviewing for a software engineer position, can you give me some interview questions?
@@ -45,7 +45,7 @@ plugins:
   ```{.wrap}
   Please provide me with some common interview questions for a marketing manager role.
   ```
-- **Give you gift ideas for business partners, customers, or clients**
+- **时间范围：公元前 2070年 至 1600年**
 
   ```{.wrap}
   I need gift ideas for my clients, can you help?

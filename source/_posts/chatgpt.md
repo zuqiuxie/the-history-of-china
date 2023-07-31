@@ -30,7 +30,7 @@ plugins:
 | `语种`     | 雅言                         |
 | `货币`     | 贝币、贝蚌、铜贝             |
 | `建立者`   | 夏禹                         |
-|![1690813010023](image/chatgpt/1690813010023.png)| 单独
+|![](image/chatgpt/1690813010023.png)| 单独
 
 [💡 I Got an IDEA](https://github.com/Fechin/reference/blob/main/source/_posts/chatgpt.md)
 
